@@ -1,6 +1,6 @@
 {
   "name": "hostname-to-port",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Hash a hostname to a valid port",
   "main": "index.js",
   "scripts": {
