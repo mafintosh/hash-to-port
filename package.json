@@ -1,7 +1,7 @@
 {
-  "name": "hostname-to-port",
+  "name": "hash-to-port",
   "version": "1.0.0",
-  "description": "Hash a hostname to a valid port",
+  "description": "Hash a value to a valid port",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js"
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/hostname-to-port.git"
+    "url": "https://github.com/mafintosh/hash-to-port.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/hostname-to-port/issues"
+    "url": "https://github.com/mafintosh/hash-to-port/issues"
   },
-  "homepage": "https://github.com/mafintosh/hostname-to-port"
+  "homepage": "https://github.com/mafintosh/hash-to-port"
 }

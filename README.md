@@ -1,27 +1,27 @@
-# hostname-to-port
+# hash-to-port
 
-Hash a hostname to a valid port
+Hash a value to a valid port
 
 ```
-npm install hostname-to-port
+npm install hash-to-port
 ```
 
-[![build status](http://img.shields.io/travis/mafintosh/hostname-to-port.svg?style=flat)](http://travis-ci.org/mafintosh/hostname-to-port)
+[![build status](http://img.shields.io/travis/mafintosh/hash-to-port.svg?style=flat)](http://travis-ci.org/mafintosh/hash-to-port)
 
 ## Usage
 
 ``` js
-var toPort = require('hostname-to-port')
+var toPort = require('hash-to-port')
 
 console.log(toPort('example.com')) // returns 22019
 ```
 
 ## API
 
-#### `var port = toPort(hostname)`
+#### `var port = toPort(value)`
 
-Hash the given hostname to a valid port (`>= 1024 <= 65535`).
-The same hostname will *always* hash to the same port but note that two different hostnames might hash to the same port as well
+Hash the given value to a valid port (`>= 1024 <= 65535`).
+The same value will *always* hash to the same port but note that two different values might hash to the same port as well
 
 ## License
 
