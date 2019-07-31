@@ -18,10 +18,14 @@ console.log(toPort('example.com')) // returns 22019
 
 ## API
 
-#### `var port = toPort(value)`
+#### `var port = toPort(value, ?from, ?to)`
 
-Hash the given value to a valid port (`>= 1024 <= 65535`).
+Hash the given value to a valid port (`>= from <= to`).
 The same value will *always* hash to the same port but note that two different values might hash to the same port as well
+
+- `value` <string>
+- `from` <?number> (default: `1024`)
+- `to` <?number> (default: `65535`)
 
 ## License
 
