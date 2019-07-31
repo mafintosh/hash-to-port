@@ -1,6 +1,6 @@
 {
   "name": "hash-to-port",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Hash a value to a valid port",
   "main": "index.js",
   "scripts": {
