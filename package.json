@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Hash a value to a valid port",
   "main": "index.js",
+  "bin": "bin.js",
   "scripts": {
     "test": "tape test.js"
   },
